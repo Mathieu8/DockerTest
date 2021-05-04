@@ -1,0 +1,3 @@
+docker image build -t mathieu8/server:server .
+
+docker container run -d --name server -p 9070:9080 mathieu8/server:server
