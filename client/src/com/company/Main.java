@@ -23,7 +23,7 @@ public class Main{
 
         try {
             // Create a socket to connect to the server
-            Socket socket = new Socket("localhost", 9000);
+            Socket socket = new Socket("localhost", 9070);
 
             // Create an input stream to receive data from the server
             fromServer = new DataInputStream(socket.getInputStream());
